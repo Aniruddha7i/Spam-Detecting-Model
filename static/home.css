@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#form{
+    position: relative;
+    top: 10rem;
+    background-color: rgb(240, 253, 185);
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+}
+.spam{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+.spam-h1{
+    color: rgb(255, 35, 35)
+}
+.ham-h1{
+    color: greenyellow;
+}
+

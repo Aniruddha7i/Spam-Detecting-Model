@@ -7,7 +7,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # text to formed text
 stopWords = nltk.corpus.stopwords.words('english')
 
-
 def transform_text(text):
     #convart lower case
     text = text.lower()
